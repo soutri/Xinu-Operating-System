@@ -1,0 +1,14 @@
+Q1)What is Orphan and Zombie processes?
+Ans)
+ORPHAN PROCESS
+->An orphan process is a process that runs in the system without any parent process.
+->When a process becomes an orphan process , it is automatically adopted by the init process
+ZOMBIE PROCESS
+->A zombie process is a process which has exited from the system but is still present inside the process table.
+->A zombie process is created ,when the parent process fails to collect the exit status of it's child process.As a result,the process table is not notified about the exit of the child process.
+->Zombie process occupies unnecessary memory in the process table which results in memory leakage.
+
+Q2)What are the changes that occur when the child process calls the exec system call to execute a new program?
+Ans)->When the child process calls the exec system call,a new process image replaces the current process image and transfer the control to it. It replaces the curent shell file descriptors.As a result,the instructions following exec will not be executed. 
+
+
