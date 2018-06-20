@@ -1,0 +1,60 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+*.boot
+
+# Debug files
+*.dSYM/
+*.su
+
+<<<<<<< HEAD
+#Custom Files
+compile/.defs
+compile/.vers_num 
+compile/version 
+compile/xinu 
+compile/xinu.bin 
+compile/xinu.boot 
+compile/xinu.map
+config/config 
+config/lex.yy.c 
+config/y.tab.c 
+include/conf.h 
+system/conf.c
+=======
+# Other
+*.map
+TAGS
+
+# Temp files and Hidden Files
+\#*\#
+*~
+.*
+>>>>>>> 85539636599305a697d4d05b7fc286b7d5f75868
